@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIimageViewCorner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="rOl-e1-hJ6">
+                                <rect key="frame" x="20" y="40" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="C2J-c5-h1B"/>
+                                    <constraint firstAttribute="height" constant="50" id="o17-xR-T0I"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="l3V-94-HFS">
+                                <rect key="frame" x="20" y="200" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="2Jg-DU-HYY"/>
+                                    <constraint firstAttribute="height" constant="50" id="jSh-iF-7bi"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="cT0-IZ-A98">
+                                <rect key="frame" x="20" y="280" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1PZ-xG-a7U"/>
+                                    <constraint firstAttribute="width" constant="50" id="gw6-Nh-PvM"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="U3Q-8X-dzu">
+                                <rect key="frame" x="20" y="120" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ltF-ZN-XE5"/>
+                                    <constraint firstAttribute="width" constant="50" id="tsG-EV-yG4"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="vgZ-5j-nhp">
+                                <rect key="frame" x="20" y="360" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Hjc-ub-hgx"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="aUE-7Z-32h"/>
+                                    <constraint firstAttribute="height" constant="50" id="ajk-zh-1Pt"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="cdz-mN-usf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="U3Q-8X-dzu" firstAttribute="top" secondItem="rOl-e1-hJ6" secondAttribute="bottom" constant="30" id="BKT-06-Rch"/>
+                            <constraint firstItem="vgZ-5j-nhp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JYl-Og-T63"/>
+                            <constraint firstItem="vgZ-5j-nhp" firstAttribute="top" secondItem="cT0-IZ-A98" secondAttribute="bottom" constant="30" id="MFP-wj-LvI"/>
+                            <constraint firstItem="rOl-e1-hJ6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="OA3-YU-ekc"/>
+                            <constraint firstItem="U3Q-8X-dzu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="TkG-Hi-VhN"/>
+                            <constraint firstItem="cT0-IZ-A98" firstAttribute="top" secondItem="l3V-94-HFS" secondAttribute="bottom" constant="30" id="TpC-ZH-e5D"/>
+                            <constraint firstItem="l3V-94-HFS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Zj7-X9-Den"/>
+                            <constraint firstItem="rOl-e1-hJ6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="aSt-d1-m0v"/>
+                            <constraint firstItem="l3V-94-HFS" firstAttribute="top" secondItem="U3Q-8X-dzu" secondAttribute="bottom" constant="30" id="bQ0-Vc-jOT"/>
+                            <constraint firstItem="cT0-IZ-A98" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cZo-lh-mmm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView1" destination="rOl-e1-hJ6" id="L87-IO-1Me"/>
+                        <outlet property="imageView2" destination="U3Q-8X-dzu" id="Td7-Nz-xIC"/>
+                        <outlet property="imageView3" destination="l3V-94-HFS" id="zEA-Y8-9av"/>
+                        <outlet property="imageView4" destination="cT0-IZ-A98" id="Ax4-3A-hlZ"/>
+                        <outlet property="imageView5" destination="vgZ-5j-nhp" id="GGK-PU-zre"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="645" height="608"/>
+    </resources>
+</document>
